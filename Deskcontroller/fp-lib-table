@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name doit-esp32-devkit-kicad-master)(type KiCad)(uri /Users/zameer/Library/CloudStorage/OneDrive-Personal/Desk_controller/KiCad/doit-esp32-devkit-kicad-master)(options "")(descr ""))
+  (lib (name kicad)(type KiCad)(uri /Users/zameer/Library/CloudStorage/OneDrive-Personal/Desk_controller/inkkeys-main/inkkeys-main/kicad)(options "")(descr ""))
+  (lib (name ESP32-DEVKIT-V1)(type KiCad)(uri /Users/zameer/Library/CloudStorage/OneDrive-Personal/Desk_controller/ESP32-DEVKIT-V1)(options "")(descr ""))
+)

@@ -1,0 +1,601 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Switch:SW_Push SW1
+U 1 1 62B75827
+P 6300 2950
+F 0 "SW1" H 6300 3235 50  0000 C CNN
+F 1 "SW_Push" H 6300 3144 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 6300 3150 50  0001 C CNN
+F 3 "~" H 6300 3150 50  0001 C CNN
+	1    6300 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW2
+U 1 1 62B7660C
+P 6300 3400
+F 0 "SW2" H 6300 3685 50  0000 C CNN
+F 1 "SW_Push" H 6300 3594 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 6300 3600 50  0001 C CNN
+F 3 "~" H 6300 3600 50  0001 C CNN
+	1    6300 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW3
+U 1 1 62B76EE9
+P 6300 3800
+F 0 "SW3" H 6300 4085 50  0000 C CNN
+F 1 "SW_Push" H 6300 3994 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 6300 4000 50  0001 C CNN
+F 3 "~" H 6300 4000 50  0001 C CNN
+	1    6300 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW4
+U 1 1 62B776B2
+P 6300 4200
+F 0 "SW4" H 6300 4485 50  0000 C CNN
+F 1 "SW_Push" H 6300 4394 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 6300 4400 50  0001 C CNN
+F 3 "~" H 6300 4400 50  0001 C CNN
+	1    6300 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 62B780E9
+P 5850 6450
+F 0 "#PWR0101" H 5850 6200 50  0001 C CNN
+F 1 "GND" H 5855 6277 50  0000 C CNN
+F 2 "" H 5850 6450 50  0001 C CNN
+F 3 "" H 5850 6450 50  0001 C CNN
+	1    5850 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R4
+U 1 1 62B7978D
+P 5850 4000
+F 0 "R4" H 5918 4046 50  0000 L CNN
+F 1 "1K" H 5918 3955 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5890 3990 50  0001 C CNN
+F 3 "~" H 5850 4000 50  0001 C CNN
+	1    5850 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R3
+U 1 1 62B7A53D
+P 5850 3600
+F 0 "R3" H 5918 3646 50  0000 L CNN
+F 1 "1K" H 5918 3555 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5890 3590 50  0001 C CNN
+F 3 "~" H 5850 3600 50  0001 C CNN
+	1    5850 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R2
+U 1 1 62B7B05F
+P 5850 3150
+F 0 "R2" H 5918 3196 50  0000 L CNN
+F 1 "1K" H 5918 3105 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5890 3140 50  0001 C CNN
+F 3 "~" H 5850 3150 50  0001 C CNN
+	1    5850 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R1
+U 1 1 62B7BEE6
+P 5850 2700
+F 0 "R1" H 5918 2746 50  0000 L CNN
+F 1 "1K" H 5918 2655 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5890 2690 50  0001 C CNN
+F 3 "~" H 5850 2700 50  0001 C CNN
+	1    5850 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 2850 5850 2950
+Wire Wire Line
+	6100 2950 5850 2950
+Connection ~ 5850 2950
+Wire Wire Line
+	5850 2950 5850 3000
+Wire Wire Line
+	5850 3300 5850 3400
+Wire Wire Line
+	6100 3400 5850 3400
+Connection ~ 5850 3400
+Wire Wire Line
+	5850 3400 5850 3450
+Wire Wire Line
+	5850 3750 5850 3800
+Wire Wire Line
+	6100 3800 5850 3800
+Connection ~ 5850 3800
+Wire Wire Line
+	5850 3800 5850 3850
+$Comp
+L Device:R_US R5
+U 1 1 62B7ED31
+P 5850 4400
+F 0 "R5" H 5918 4446 50  0000 L CNN
+F 1 "1K" H 5918 4355 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5890 4390 50  0001 C CNN
+F 3 "~" H 5850 4400 50  0001 C CNN
+	1    5850 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 4150 5850 4200
+Wire Wire Line
+	6100 4200 5850 4200
+Connection ~ 5850 4200
+Wire Wire Line
+	5850 4200 5850 4250
+Wire Wire Line
+	6500 2950 6750 2950
+Wire Wire Line
+	6750 4200 6500 4200
+Wire Wire Line
+	6750 3800 6500 3800
+Wire Wire Line
+	6750 3400 6500 3400
+$Comp
+L Device:R_US R10
+U 1 1 62B8131B
+P 6750 6150
+F 0 "R10" H 6818 6196 50  0000 L CNN
+F 1 "1M" H 6818 6105 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 6790 6140 50  0001 C CNN
+F 3 "~" H 6750 6150 50  0001 C CNN
+	1    6750 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0102
+U 1 1 62B82B8A
+P 5850 2550
+F 0 "#PWR0102" H 5850 2400 50  0001 C CNN
+F 1 "+3.3V" H 5865 2723 50  0000 C CNN
+F 2 "" H 5850 2550 50  0001 C CNN
+F 3 "" H 5850 2550 50  0001 C CNN
+	1    5850 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR03
+U 1 1 62B83BED
+P 2300 2700
+F 0 "#PWR03" H 2300 2550 50  0001 C CNN
+F 1 "+3.3V" H 2315 2873 50  0000 C CNN
+F 2 "" H 2300 2700 50  0001 C CNN
+F 3 "" H 2300 2700 50  0001 C CNN
+	1    2300 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 62B8568B
+P 2550 4850
+F 0 "#PWR01" H 2550 4600 50  0001 C CNN
+F 1 "GND" H 2555 4677 50  0000 C CNN
+F 2 "" H 2550 4850 50  0001 C CNN
+F 3 "" H 2550 4850 50  0001 C CNN
+	1    2550 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 4850 2550 4850
+Wire Wire Line
+	6750 2050 6750 2950
+Wire Wire Line
+	2300 4450 5650 4450
+Wire Wire Line
+	5650 4450 5650 2050
+Wire Wire Line
+	5650 2050 6750 2050
+$Comp
+L Connector:Conn_01x08_Male J2
+U 1 1 62C28129
+P 3600 3300
+F 0 "J2" H 3572 3182 50  0000 R CNN
+F 1 "E-Ink Display" H 3572 3273 50  0000 R CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x08_P1.27mm_Vertical" H 3600 3300 50  0001 C CNN
+F 3 "~" H 3600 3300 50  0001 C CNN
+	1    3600 3300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2300 2850 2300 2700
+$Comp
+L DeskController-rescue:ESP32-DEVKIT-V1-ESP32-DEVKIT-V1 U1
+U 1 1 62C1CE1E
+P 1700 3850
+F 0 "U1" H 1700 5117 50  0000 C CNN
+F 1 "ESP32-DEVKIT-V1" H 1700 5026 50  0000 C CNN
+F 2 "ESP32-DEVKIT-V1:MODULE_ESP32_DEVKIT_V1" H 1700 3850 50  0001 L BNN
+F 3 "" H 1700 3850 50  0001 L BNN
+F 4 "N/A" H 1700 3850 50  0001 L BNN "PARTREV"
+F 5 "DOIT" H 1700 3850 50  0001 L BNN "MANUFACTURER"
+F 6 "6.8 mm" H 1700 3850 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 7 "Manufacturer Recommendations" H 1700 3850 50  0001 L BNN "STANDARD"
+	1    1700 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 2750 1100 2850
+$Comp
+L power:+5V #PWR02
+U 1 1 62B8700B
+P 1100 2750
+F 0 "#PWR02" H 1100 2600 50  0001 C CNN
+F 1 "+5V" H 1115 2923 50  0000 C CNN
+F 2 "" H 1100 2750 50  0001 C CNN
+F 3 "" H 1100 2750 50  0001 C CNN
+	1    1100 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR07
+U 1 1 62C311B1
+P 3300 3650
+F 0 "#PWR07" H 3300 3500 50  0001 C CNN
+F 1 "+5V" H 3315 3823 50  0000 C CNN
+F 2 "" H 3300 3650 50  0001 C CNN
+F 3 "" H 3300 3650 50  0001 C CNN
+	1    3300 3650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3400 3600 3300 3600
+Wire Wire Line
+	3300 3600 3300 3650
+$Comp
+L power:GND #PWR06
+U 1 1 62C328BA
+P 3150 3550
+F 0 "#PWR06" H 3150 3300 50  0001 C CNN
+F 1 "GND" H 3155 3377 50  0000 C CNN
+F 2 "" H 3150 3550 50  0001 C CNN
+F 3 "" H 3150 3550 50  0001 C CNN
+	1    3150 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 3500 3150 3500
+Wire Wire Line
+	3150 3500 3150 3550
+Wire Wire Line
+	2300 3950 3050 3950
+Wire Wire Line
+	3050 3950 3050 3400
+Wire Wire Line
+	3050 3400 3400 3400
+Wire Wire Line
+	1100 4450 950  4450
+Wire Wire Line
+	950  4450 950  5100
+Wire Wire Line
+	950  5100 2950 5100
+Wire Wire Line
+	2950 5100 2950 3300
+Wire Wire Line
+	2950 3300 3400 3300
+Wire Wire Line
+	1100 3950 800  3950
+Wire Wire Line
+	800  3950 800  5300
+Wire Wire Line
+	800  5300 2850 5300
+Wire Wire Line
+	2850 5300 2850 3200
+Wire Wire Line
+	2850 3200 3400 3200
+Wire Wire Line
+	2300 3550 2750 3550
+Wire Wire Line
+	2750 3550 2750 3100
+Wire Wire Line
+	2750 3100 3400 3100
+Wire Wire Line
+	2300 3450 2650 3450
+Wire Wire Line
+	2650 3450 2650 3000
+Wire Wire Line
+	2650 3000 3400 3000
+Wire Wire Line
+	1100 3850 800  3850
+Wire Wire Line
+	800  3850 800  2250
+Wire Wire Line
+	800  2250 2850 2250
+Wire Wire Line
+	2850 2250 2850 2900
+Wire Wire Line
+	2850 2900 3400 2900
+$Comp
+L Device:Rotary_Encoder_Switch SW5
+U 1 1 62C3C71C
+P 1750 1250
+F 0 "SW5" H 1750 1617 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 1750 1526 50  0000 C CNN
+F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_CircularMountingHoles" H 1600 1410 50  0001 C CNN
+F 3 "~" H 1750 1510 50  0001 C CNN
+	1    1750 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 4350 700  4350
+Wire Wire Line
+	700  4350 700  1150
+Wire Wire Line
+	700  1150 1450 1150
+Wire Wire Line
+	1100 4250 600  4250
+Wire Wire Line
+	600  4250 600  1350
+Wire Wire Line
+	600  1350 1450 1350
+Wire Wire Line
+	2300 4150 4350 4150
+Wire Wire Line
+	4350 4150 4350 2100
+Wire Wire Line
+	4350 2100 1350 2100
+Wire Wire Line
+	1350 2100 1350 1250
+Wire Wire Line
+	1350 1250 1450 1250
+$Comp
+L power:+5V #PWR04
+U 1 1 62C48C46
+P 2300 1150
+F 0 "#PWR04" H 2300 1000 50  0001 C CNN
+F 1 "+5V" H 2315 1323 50  0000 C CNN
+F 2 "" H 2300 1150 50  0001 C CNN
+F 3 "" H 2300 1150 50  0001 C CNN
+	1    2300 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 62C493A5
+P 2300 1350
+F 0 "#PWR05" H 2300 1100 50  0001 C CNN
+F 1 "GND" H 2305 1177 50  0000 C CNN
+F 2 "" H 2300 1350 50  0001 C CNN
+F 3 "" H 2300 1350 50  0001 C CNN
+	1    2300 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 1350 2050 1350
+Wire Wire Line
+	2050 1150 2300 1150
+$Comp
+L Connector:Conn_01x03_Male J1
+U 1 1 62C4C5DC
+P 3500 5400
+F 0 "J1" H 3472 5332 50  0000 R CNN
+F 1 "LED Strip" H 3472 5423 50  0000 R CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical" H 3500 5400 50  0001 C CNN
+F 3 "~" H 3500 5400 50  0001 C CNN
+	1    3500 5400
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR09
+U 1 1 62C4DB56
+P 3300 5500
+F 0 "#PWR09" H 3300 5350 50  0001 C CNN
+F 1 "+5V" H 3315 5673 50  0000 C CNN
+F 2 "" H 3300 5500 50  0001 C CNN
+F 3 "" H 3300 5500 50  0001 C CNN
+	1    3300 5500
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 62C4E7B6
+P 3300 5300
+F 0 "#PWR08" H 3300 5050 50  0001 C CNN
+F 1 "GND" H 3305 5127 50  0000 C CNN
+F 2 "" H 3300 5300 50  0001 C CNN
+F 3 "" H 3300 5300 50  0001 C CNN
+	1    3300 5300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3300 5400 2700 5400
+Wire Wire Line
+	2700 5400 2700 4050
+Wire Wire Line
+	2700 4050 2300 4050
+$Comp
+L Switch:SW_Push SW6
+U 1 1 62C6209B
+P 6300 4700
+F 0 "SW6" H 6300 4985 50  0000 C CNN
+F 1 "SW_Push" H 6300 4894 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 6300 4900 50  0001 C CNN
+F 3 "~" H 6300 4900 50  0001 C CNN
+	1    6300 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW7
+U 1 1 62C620A1
+P 6300 5150
+F 0 "SW7" H 6300 5435 50  0000 C CNN
+F 1 "SW_Push" H 6300 5344 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 6300 5350 50  0001 C CNN
+F 3 "~" H 6300 5350 50  0001 C CNN
+	1    6300 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW8
+U 1 1 62C620A7
+P 6300 5550
+F 0 "SW8" H 6300 5835 50  0000 C CNN
+F 1 "SW_Push" H 6300 5744 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 6300 5750 50  0001 C CNN
+F 3 "~" H 6300 5750 50  0001 C CNN
+	1    6300 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW9
+U 1 1 62C620AD
+P 6300 5950
+F 0 "SW9" H 6300 6235 50  0000 C CNN
+F 1 "SW_Push" H 6300 6144 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 6300 6150 50  0001 C CNN
+F 3 "~" H 6300 6150 50  0001 C CNN
+	1    6300 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R8
+U 1 1 62C620B3
+P 5850 5750
+F 0 "R8" H 5918 5796 50  0000 L CNN
+F 1 "1K" H 5918 5705 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5890 5740 50  0001 C CNN
+F 3 "~" H 5850 5750 50  0001 C CNN
+	1    5850 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R7
+U 1 1 62C620B9
+P 5850 5350
+F 0 "R7" H 5918 5396 50  0000 L CNN
+F 1 "1K" H 5918 5305 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5890 5340 50  0001 C CNN
+F 3 "~" H 5850 5350 50  0001 C CNN
+	1    5850 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R6
+U 1 1 62C620BF
+P 5850 4900
+F 0 "R6" H 5918 4946 50  0000 L CNN
+F 1 "1K" H 5918 4855 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5890 4890 50  0001 C CNN
+F 3 "~" H 5850 4900 50  0001 C CNN
+	1    5850 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 4700 5850 4700
+Connection ~ 5850 4700
+Wire Wire Line
+	5850 4700 5850 4750
+Wire Wire Line
+	5850 5050 5850 5150
+Wire Wire Line
+	6100 5150 5850 5150
+Connection ~ 5850 5150
+Wire Wire Line
+	5850 5150 5850 5200
+Wire Wire Line
+	5850 5500 5850 5550
+Wire Wire Line
+	6100 5550 5850 5550
+Connection ~ 5850 5550
+Wire Wire Line
+	5850 5550 5850 5600
+$Comp
+L Device:R_US R9
+U 1 1 62C620D1
+P 5850 6150
+F 0 "R9" H 5918 6196 50  0000 L CNN
+F 1 "1K" H 5918 6105 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5890 6140 50  0001 C CNN
+F 3 "~" H 5850 6150 50  0001 C CNN
+	1    5850 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 5900 5850 5950
+Wire Wire Line
+	6100 5950 5850 5950
+Connection ~ 5850 5950
+Wire Wire Line
+	5850 5950 5850 6000
+Wire Wire Line
+	6500 4700 6750 4700
+Wire Wire Line
+	6750 5950 6500 5950
+Wire Wire Line
+	6750 5550 6500 5550
+Wire Wire Line
+	6750 5150 6500 5150
+Wire Wire Line
+	6750 6000 6750 5950
+Wire Wire Line
+	5850 4550 5850 4700
+Wire Wire Line
+	5850 6300 6750 6300
+Wire Wire Line
+	5850 6300 5850 6450
+Connection ~ 5850 6300
+Wire Wire Line
+	6750 4200 6750 4700
+Connection ~ 6750 5950
+Connection ~ 6750 4700
+Wire Wire Line
+	6750 4700 6750 5150
+Connection ~ 6750 5150
+Wire Wire Line
+	6750 5150 6750 5550
+Connection ~ 6750 5550
+Wire Wire Line
+	6750 5550 6750 5950
+Wire Wire Line
+	6750 4200 6750 3800
+Connection ~ 6750 4200
+Connection ~ 6750 2950
+Connection ~ 6750 3400
+Wire Wire Line
+	6750 3400 6750 2950
+Connection ~ 6750 3800
+Wire Wire Line
+	6750 3800 6750 3400
+NoConn ~ 1100 2950
+NoConn ~ 1100 3150
+NoConn ~ 1100 3250
+NoConn ~ 1100 3750
+NoConn ~ 1100 4050
+NoConn ~ 1100 4150
+NoConn ~ 1100 4550
+NoConn ~ 1100 4650
+NoConn ~ 2300 4550
+NoConn ~ 2300 4350
+NoConn ~ 2300 4250
+NoConn ~ 2300 3850
+NoConn ~ 2300 3750
+NoConn ~ 2300 3250
+NoConn ~ 2300 3150
+$EndSCHEMATC

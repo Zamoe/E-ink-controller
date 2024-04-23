@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name SparkFun-Boards)(type Legacy)(uri /Users/zameer/Library/CloudStorage/OneDrive-Personal/Desk_controller/inkkeys-main/inkkeys-main/kicad/SparkFun-Boards.lib)(options "")(descr ""))
+  (lib (name inkkeys-cache)(type Legacy)(uri /Users/zameer/Library/CloudStorage/OneDrive-Personal/Desk_controller/inkkeys-main/inkkeys-main/kicad/inkkeys-cache.lib)(options "")(descr ""))
+  (lib (name DeskController-rescue)(type Legacy)(uri ${KIPRJMOD}/DeskController-rescue.lib)(options "")(descr ""))
+)
