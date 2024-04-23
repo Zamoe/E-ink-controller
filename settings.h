@@ -3,12 +3,12 @@
 //All the settings are to be put here
 
 // WiFi Network Credentials
-const char *ssid =  "MahomedFibre1";   // name of your WiFi network
-const char *password =  "0828946830"; // password of the WiFi network
+const char *ssid =  "Secret";   // name of your WiFi network
+const char *password =  "Secret"; // password of the WiFi network
 
 // Home Assistant Credentials
-const char *HA_USER = "mqtt";
-const char *HA_PASS = "Haroon@10";
+const char *HA_USER = "Secret";
+const char *HA_PASS = "Secret";
 
 //mode of the controler
 String ContMode ="default";
