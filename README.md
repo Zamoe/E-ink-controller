@@ -11,7 +11,7 @@ WS2812 Addressable RGB Led Strip.
 8 standard buttons are connected to one GPIO pin, using an analog button array configuration. 
 
 See the schematic file for the wiring diagram:
-![alt text](schematic.png)
+![Schematic](Schematic.png)
 
 ## Software
 The code is constructed using the Arduino IDE with various libraries used for the screen, encoder and buttons. 
