@@ -2,7 +2,7 @@
 
 This project uses an e-ink display, buttons and a rotary encoder to create a dymanic smart-home controller. The board connects to WiFi and uses MQTT to connect to a HomeAssistant instance. The E-ink display shows devices being controlled and their current status and the buttons and encoder are used to control the devices. 
 
-##Hardware 
+## Hardware 
 
 ESP32 DevKit-v1 as the system MCU.
 Display is the waveshare 2.13" E-ink Display.
