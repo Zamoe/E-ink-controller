@@ -10,7 +10,8 @@ Rotary Knob is the DF Robot Encoder.
 WS2812 Addressable RGB Led Strip.
 8 standard buttons are connected to one GPIO pin, using an analog button array configuration. 
 
-See the schematic file, DeskController.sch for the wiring diagram. 
+See the schematic file for the wiring diagram:
+![alt text](schematic.png)
 
-##Software
+## Software
 The code is constructed using the Arduino IDE with various libraries used for the screen, encoder and buttons. 
