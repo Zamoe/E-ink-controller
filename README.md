@@ -15,3 +15,7 @@ See the schematic file for the wiring diagram:
 
 ## Software
 The code is constructed using the Arduino IDE with various libraries used for the screen, encoder and buttons. 
+
+## Casing
+
+The 3D print files for the casing can be found in the stl file.
