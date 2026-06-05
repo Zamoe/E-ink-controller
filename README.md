@@ -1,8 +1,16 @@
 # E-ink-controller
-ESP32 MQTT bridge paired with a waveshare 2.13" E-ink Display.
 
-This project aims to create a device that connect to homeassiatnt to change the states of varies entities and recieve their current state back. This will allow for device and automation control.
+This project uses an e-ink display, buttons and a rotary encoder to create a dymanic smart-home controller. The board connects to WiFi and uses MQTT to connect to a HomeAssistant instance. The E-ink display shows devices being controlled and their current status and the buttons and encoder are used to control the devices. 
 
-The board consists of 8 buttons, 1 rotary encoder, esp32 wifi board and addresable LEDs for live updates. 
+##Hardware 
 
+ESP32 DevKit-v1 as the system MCU.
+Display is the waveshare 2.13" E-ink Display.
+Rotary Knob is the DF Robot Encoder. 
+WS2812 Addressable RGB Led Strip.
+8 standard buttons are connected to one GPIO pin, using an analog button array configuration. 
 
+See the schematic file, DeskController.sch for the wiring diagram. 
+
+##Software
+The code is constructed using the Arduino IDE with various libraries used for the screen, encoder and buttons. 
